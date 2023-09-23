@@ -1,0 +1,29 @@
+
+.body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.nameSection {
+  background-color: lightblue;
+  width: 40%;
+  flex-grow: 1;
+  height: 90vh;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+.information {
+    background-color: lightgreen;
+    width: 60%;
+    overflow-y: auto;
+    flex-grow: 1;
+    display: flex;
+    height: 90vh;
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 20vw;
+}

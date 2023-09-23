@@ -1,0 +1,15 @@
+.firstLine{
+    margin-top: 12%;
+}
+.firstLine span, .firstLine p{
+    display: inline-block;
+}
+
+.firstLine span{
+    margin-right: 5%;
+}
+
+.firstLine p{
+    font-weight: bold;
+
+}
