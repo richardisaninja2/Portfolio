@@ -33,7 +33,7 @@ a, a:hover, a:visited, a:active {
     position: relative;
     float: right;
     width: 50%;
-    padding: 5%;
+    padding-top: 5%;
     text-align: left;
     line-height: 2;
     margin-right: 18%;

@@ -4,7 +4,9 @@ import myFile from "../resources/RichardResumeC.pdf"
 // import "../css/Main1.css"
 import Socials from "./Socials";
 import History from "./History";
-
+import Projects from "./Projects";
+import weatherApp from "../resources/weatherApp.PNG"
+import expenseTracker from "../resources/expenseTracker.PNG"
 function Main(){
     
 
@@ -96,6 +98,12 @@ function Main(){
                         />
 
                         <span ><h3><a className="spanAfter" href={myFile} target="_blank">View Full Resume</a></h3></span> 
+
+                        <div className="projectCont">
+                            <Projects name="Weateher App" shortDesc="Built a weather app  " description="This web app, developed as a project showing my utalization of data retrieved from api's, is built with React. js. It enables users to search for weather conditions worldwide and delivers current weather information. The app retrieves weather data using the Weatherapi.com API." image={weatherApp} link="https://richardisaninja2.github.io/weatherr/"/>
+
+                            <Projects name="Weateher App" shortDesc="Expense Tracker " description="This web app, is built with React. js and has UI designed for mobile. It enables users to input subscription info and track due dates and how much monthly it is estimated their total in subcriptions will come out to. The app utilizes localStorage to store data." image={expenseTracker} link="https://richardisaninja2.github.io/weatherr/"/>
+                        </div>
                     </div>
                 </div>
                 

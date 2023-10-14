@@ -1,0 +1,40 @@
+.projectCont{
+    margin-top: 20%;
+}
+.project{
+    margin-top: 10%;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 5%;
+    align-items: flex-start;
+}
+.project div{
+    width: 100%;
+}
+.projThumbnail{
+    width: 30%;
+}
+.arrow{
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    
+}
+.project:hover{
+    border: .5px solid white;
+    padding-left: -15%;
+    padding-right: -15%;
+    border-radius: 15px;
+}
+
+.project:hover .right{
+    margin-left: 2%;
+    transition: margin-left .1s;
+}
