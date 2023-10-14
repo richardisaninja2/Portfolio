@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../css/Main.css";
+import myFile from "../resources/RichardResumeC.pdf"
 // import "../css/Main1.css"
 import Socials from "./Socials";
 import History from "./History";
@@ -93,6 +94,8 @@ function Main(){
                         title="Full Stack Developer, GenSpark"
                         desc="In my role as a Java Full Stack Developer, I combined Java experience with full-stack capabilities to deliver robust and efficient software solutions, fostered effective collaboration, and maintained a commitment to quality through testing and version control practices."
                         />
+
+                        <span ><h3><a className="spanAfter" href={myFile} target="_blank">View Full Resume</a></h3></span> 
                     </div>
                 </div>
                 

@@ -84,3 +84,6 @@ a, a:hover, a:visited, a:active {
 .leftBottomSection{
     padding-top: 50%;
 }
+.spanAfter:hover::after{
+    content: "  ->"
+}
