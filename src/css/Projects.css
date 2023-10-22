@@ -38,3 +38,7 @@
     margin-left: 2%;
     transition: margin-left .1s;
 }
+img{
+    height: 80px;
+    width: 300px;
+}

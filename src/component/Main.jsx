@@ -6,7 +6,7 @@ import Socials from "./Socials";
 import History from "./History";
 import Projects from "./Projects";
 import weatherApp from "../resources/weatherApp.PNG"
-import expenseTracker from "../resources/expenseTracker.PNG"
+import expenseTracker from "../resources/expenseT.PNG"
 function Main(){
     
 
@@ -42,6 +42,12 @@ function Main(){
                 setProjExpMar({margin: "0 50px", transition: "margin .1s"});
                 
             }
+            if(window.scrollY >= 800){
+                setMargin({margin: "0 50px", transition: "margin .1s"})
+                setExpMar({margin: "0 50px", transition: "margin .1s"});
+                setProjExpMar({margin: "0 10px", transition: "margin .1s"});
+                
+            }
             // if(window.scrollY >=  projPos){
             //     //do somethign here
             // }
@@ -71,7 +77,7 @@ function Main(){
                 <div className="leftMidSection">
                     <p> <span className="about" style={margin}>About &nbsp; &nbsp; &nbsp;</span></p>
                     <p><span className="exp" style={expMar} >Experience</span></p>
-                    <p><span className="proj" >Projects &nbsp; &nbsp;</span></p>
+                    <p><span className="proj" style={projExpMar}>Projects &nbsp; &nbsp;</span></p>
                 </div>
 
                 <div className="leftBottomSection">
@@ -102,7 +108,7 @@ function Main(){
                         <div className="projectCont">
                             <Projects name="Weateher App" shortDesc="Built a weather app  " description="This web app, developed as a project showing my utalization of data retrieved from api's, is built with React. js. It enables users to search for weather conditions worldwide and delivers current weather information. The app retrieves weather data using the Weatherapi.com API." image={weatherApp} link="https://richardisaninja2.github.io/weatherr/"/>
 
-                            <Projects name="Weateher App" shortDesc="Expense Tracker " description="This web app, is built with React. js and has UI designed for mobile. It enables users to input subscription info and track due dates and how much monthly it is estimated their total in subcriptions will come out to. The app utilizes localStorage to store data." image={expenseTracker} link="https://richardisaninja2.github.io/weatherr/"/>
+                            <Projects name="Weateher App" shortDesc="Expense Tracker " description="This web app, is built with React. js and has UI designed for mobile. It enables users to input subscription info and track due dates and how much monthly it is estimated their total in subcriptions will come out to. The app utilizes localStorage to store data." image={expenseTracker} link="https://richardisaninja2.github.io/expense-tracker/#/"/>
                         </div>
                     </div>
                 </div>

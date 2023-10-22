@@ -91,3 +91,47 @@ a, a:hover, a:visited, a:active {
 .spanAfter:hover::after{
     content: "  ->"
 }
+
+@media only screen and (max-width: 1550px){
+    .body{
+        overflow-x: hidden;
+        display: block;
+    }
+    .nameSection{
+      position: relative;
+      display: block;
+      width: 20%;
+      padding: 5% 5% 0 5%;
+      /*     padding: 5%;
+    margin-left: 10%;
+     */
+    }
+    .leftMidSection{
+        display: none;
+    }
+    .leftBottomSection{
+        display: none;
+    }
+    .information{
+    position: relative;
+    float: right; 
+    width: 72%; 
+    padding: 5%;
+    text-align: left;
+    line-height: 2;
+    margin-right: 20%;
+    margin-left: 10%;
+    float: left;
+
+    }
+}
+@media only screen and (max-width: 550px){
+    .nameSection{
+        position: relative;
+        display: block;
+        width: 80%;
+        /*     padding: 5%;
+      margin-left: 10%;
+       */
+      }
+}
